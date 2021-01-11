@@ -1,0 +1,204 @@
+    .logoImage{
+      width: 250px;
+      height: 100px;
+    }
+    .brandName{
+      font-size: 45px;
+      display: inline;
+      font-style: italic;
+    }
+    .loginTable{
+      display: inline;
+    }
+    .loginForm{
+      display: inline;
+    }
+    .mySlides {
+      display: none;
+    }
+    .fullImage{
+      height: 450px;
+      width: 100%;
+    }
+    img {
+      vertical-align: middle;
+    }
+    *{
+      box-sizing: border-box;
+    }
+    .container{
+      width:100%;
+      height:100%;
+    }
+    .leftPanel{
+      width: 25%;
+      height: 100%;
+      float: left;
+      background-color: #F28E1C;
+      border-collapse: collapse;
+    }
+
+    .middlePanel{
+      width: 50%;
+      height: 100%;
+      float: left;
+      background-color: #FDDB3A;
+      border-collapse: collapse;
+    }
+
+    .rightPanel{
+      width: 25%;
+      height: 100%;
+      float: right;
+      background-color: #F28E1C;
+      border-collapse: collapse;
+    }
+    .border,cursor{
+      height: 300px;
+      width: 300px;
+    }
+
+    /* Position the image container (needed to position the left and right arrows) */
+    .container {
+      position: relative;
+    }
+
+    /* Add a pointer when hovering over the thumbnail images */
+    .cursor {
+      cursor: pointer;
+    }
+
+    /* Next & previous buttons */
+    .prev,
+    .next {
+      cursor: pointer;
+      position: absolute;
+      top: 40%;
+      width: auto;
+      padding: 16px;
+      margin-top: -50px;
+      color: white;
+      font-weight: bold;
+      font-size: 12px;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+      -webkit-user-select: none;
+    }
+
+    /* Position the "next button" to the right */
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover,
+    .next:hover {
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    /* Number text (1/3 etc) */
+    .numbertext {
+      color: #F2F2F2;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+    }
+
+    /* Container for image text */
+    .caption-container {
+      text-align: center;
+      background-color: #222;
+      padding: 20px 32px;
+      color: white;
+    }
+
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    /* Six columns side by side */
+    .column {
+      float: left;
+      width: 16.66%;
+    }
+
+    /* Add a transparency effect for thumnbail images */
+    .demo {
+      opacity: 0.6;
+    }
+
+    .active,
+    .demo:hover {
+      opacity: 1;
+    }
+    .plainText{
+      font-size: 25px;
+    }
+    .formDiv{
+
+      text-align: center;
+    }
+    img{
+      height:150px;
+      width: 150px;
+    }
+    html,body{
+      background-color: #FDDB3A;
+      margin: 0;
+      width:100%;
+      height:100%;
+    }
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333333;
+    }
+
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 16px;
+      text-decoration: none;
+    }
+
+    li a:hover {
+      background-color: #111111;
+    }
+
+    input[type=email],input[type=password],input[type=text]{
+      width: 45%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #CCC;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    input[type=submit]{
+      width: 20%;
+      background-color: #4CAF50;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    input[type=submit]:hover {
+      background-color: #45A049;
+    }
+    input:focus{
+      border: 3px solid #555;
+    }

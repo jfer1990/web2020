@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="code.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <header>
+
+        <div class="logoPrincipal">
+          <img class="logoImage" src="fotos\beerLogo.jpg" alt="Logo of the magazine">
+          <p class="brandName">La Caminera - Revista Digital</p>
+        </div>
+        <nav>
+            <ul class="navbar">
+                <li><a href="breweryStore.html">BREWERY STORES</a></li>
+                <li><a href="breweryFactories.html">BREWERY FACTORIES</a></li>
+                <li><a href="pubs.html">PUBS</a></li>
+                <li><a href="brewerySupplier.html">BREWERY SUPPLIES</a></li>
+                <li><a href="breweryTournaments.html">BREWERY TOURNAMENTS</a></li>
+                <li><a href="beerStyles.html">BEER STYLES</a></li>
+                <li><a href="beerRecipes.html">BEER RECIPES</a></li>
+                <li><a href="logIn.html">INICIAR SESIÓN</a></li>
+            </ul>
+        </nav>
+    </header>
+</head>
+<body onLoad="showSlides()">
+
+  <div class="slideshow-container">
+  </div>
+
+
+ <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+ <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+ <div class="caption-container">
+   <p class="plainText" id="caption"></p>
+ </div>
+
+
+<script>
+  
+  loadImagesToSlideShow();
+  SlideShowGenerator.showSlides();
+
+  /*
+  var slideIndex = 0;
+  showSlides(0);
+
+  function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  slides[slideIndex-1].style.display = "block";  
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+  }*/
+</script>
+
+
+</body>
+</html>
